@@ -122,7 +122,7 @@ class MultiTP extends PluginBase implements Listener {
 	public function playerBlockTouch(PlayerInteractEvent $event){
 		
 		//Check block's id (= 19) > sponge block
-		if($event->getBlock()->getID() == 19){
+		if($event->getBlock()->getID() == 147){
 			if(count($this->positions) == 0){
 				
 				//If there are no positions set :
